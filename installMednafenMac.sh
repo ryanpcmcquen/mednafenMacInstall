@@ -34,12 +34,7 @@ wget -N https://prdownloads.sourceforge.net/mednafen/mednafen-0.9.33.2.tar.bz2 -
 tar xf ~/Downloads/mednafen-0.9.33.2.tar.bz2 -C ~/Downloads/
 cd ~/Downloads/mednafen/
 
-#sudo ./configure --build=x86_64-apple-darwin`uname -r`
-#sudo make
-#sudo make install clean
-
-
-./configure #--build=x86_64-apple-darwin'uname -r'
+./configure
 make
 make install clean
 
