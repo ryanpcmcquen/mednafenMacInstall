@@ -1,5 +1,10 @@
 #!/bin/sh
-## script to automagically install mednafen on mac os
+## script to automatically install mednafen on mac os
+#
+#  this should work, but i haven't tested it:
+#
+#  $ curl https://raw.github.com/ryanpcmcquen/mednafenMacInstall/master/installMednafenMac.sh | bash
+#
 # Copyright 2014  Ryan P.C. McQuen, ryan.q@linux.com, WA
 #
 # All rights reserved.
