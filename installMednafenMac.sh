@@ -26,9 +26,9 @@
 # OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-export CC=/usr/local/Cellar/gcc48/4.8.3/bin/gcc-4.8
-export CPP=/usr/local/Cellar/gcc48/4.8.3/bin/cpp-4.8
-export CXX=/usr/local/Cellar/gcc48/4.8.3/bin/c++-4.8
+export CC=/usr/local/Cellar/gcc48/4.8.2/bin/gcc-4.8
+export CPP=/usr/local/Cellar/gcc48/4.8.2/bin/cpp-4.8
+export CXX=/usr/local/Cellar/gcc48/4.8.2/bin/c++-4.8
 
 ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 brew update && brew upgrade
