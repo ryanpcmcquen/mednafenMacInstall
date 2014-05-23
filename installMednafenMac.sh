@@ -33,7 +33,7 @@ export CXX=/usr/local/Cellar/gcc48/4.8.2/bin/c++-4.8
 ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 brew update && brew upgrade
 brew tap homebrew/versions
-brew install gcc48 wget libcdio libsndfile sdl lzlib
+brew install gcc48 wget libcdio libsndfile sdl
 
 wget -N https://prdownloads.sourceforge.net/mednafen/mednafen-0.9.34.1.tar.bz2 -P ~/Downloads/
 tar xf ~/Downloads/mednafen-0.9.34.1.tar.bz2 -C ~/Downloads/
