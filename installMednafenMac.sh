@@ -35,16 +35,20 @@ brew update && brew upgrade
 brew tap homebrew/versions
 brew install gcc48 wget libcdio libsndfile sdl
 
-wget -N https://prdownloads.sourceforge.net/mednafen/mednafen-0.9.34.1.tar.bz2 -P ~/Downloads/
-tar xf ~/Downloads/mednafen-0.9.34.1.tar.bz2 -C ~/Downloads/
+wget -N https://prdownloads.sourceforge.net/mednafen/mednafen-0.9.36.2.tar.bz2 -P ~/Downloads/
+
+tar xf ~/Downloads/mednafen-0.9.36.2.tar.bz2 -C ~/Downloads/
 cd ~/Downloads/mednafen/
 
 ./configure
 make
 make install clean
 
-rm ~/Downloads/mednafen-0.9.34.1.tar.bz2
+rm ~/Downloads/mednafen-0.9.36.2.tar.bz2
+rm -rf ~/Downloads/mednafen/
 
-echo "You may now delete the mednafen directory in your ~/Downloads folder. Enjoy."
+echo
 echo "To run a rom type 'mednafen NAMEOFROM' from the command line."
+echo
+
 
