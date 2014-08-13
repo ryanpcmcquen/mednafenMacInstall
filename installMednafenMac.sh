@@ -21,13 +21,13 @@
 # <http://www.gnu.org/licenses/>.
 
 
-VERSION=${VERSION:-0.9.36.2}
+VERSION=${VERSION:-0.9.36.3}
 
 ## script to automatically install mednafen on mac os
 #
 #  this should work, but i haven't tested it:
 #
-#  $ curl https://raw2.github.com/ryanpcmcquen/mednafenMacInstall/master/installMednafenMac.sh | bash
+#  $ curl https://raw2.github.com/ryanpcmcquen/mednafenMacInstall/master/installMednafenMac.sh | sh
 
 
 export CC=/usr/local/Cellar/gcc48/4.8.3/bin/gcc-4.8
