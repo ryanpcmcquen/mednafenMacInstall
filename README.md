@@ -3,13 +3,9 @@ mednafenMacInstall
 
 A shell script to install mednafen on Mac OS (supports 10.9)
 
-First download the script and make it executable:
+To run the script:
 
-    $ chmod +x ~/Downloads/installMednafenMac.sh
-
-To run it:
-
-    $ ~/Downloads/installMednafenMac.sh
+    $ curl https://raw.githubusercontent.com/ryanpcmcquen/mednafenMacInstall/master/installMednafenMac.sh | sh
 
 It will take a while (if you do not have gcc48 installed yet, be patient!).
 
