@@ -21,7 +21,7 @@
 # <http://www.gnu.org/licenses/>.
 
 
-VERSION=${VERSION:-0.9.36.3}
+VERSION=${VERSION:-0.9.36.4}
 
 ## script to automatically install mednafen on mac os
 #
