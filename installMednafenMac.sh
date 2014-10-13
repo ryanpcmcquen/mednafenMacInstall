@@ -34,7 +34,7 @@ export CC=/usr/local/Cellar/gcc48/4.8.3/bin/gcc-4.8
 export CPP=/usr/local/Cellar/gcc48/4.8.3/bin/cpp-4.8
 export CXX=/usr/local/Cellar/gcc48/4.8.3/bin/c++-4.8
 
-ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew update && brew upgrade
 brew tap homebrew/versions
 brew install gcc48 wget libcdio libsndfile sdl
