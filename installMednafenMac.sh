@@ -27,7 +27,7 @@ cat ~/mednafen-release-page.html | grep mednafen | grep .tar.bz2 | cut -d'"' -f2
   cut -d/ -f5 > ~/mednafenReleaseVersion
 
 rm -v ~/mednafen-release-page.html
-export MEDNAFENTARBALL=${MEDNAFENTARBALL="$( tr -d '\n\r' < ~/mednafenReleaseVersion )"}
+export MEDNAFENTARBALL=${MEDNAFENTARBALL="$(tr -d '\n\r' < ~/mednafenReleaseVersion)"}
 
 export CC=/usr/local/Cellar/gcc48/4.8.4/bin/gcc-4.8
 export CPP=/usr/local/Cellar/gcc48/4.8.4/bin/cpp-4.8
