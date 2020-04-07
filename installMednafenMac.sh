@@ -2,7 +2,7 @@
 
 #  $ curl https://raw2.github.com/ryanpcmcquen/mednafenMacInstall/master/installMednafenMac.sh | sh
 
-# Ryan P. C. McQuen | Everett, WA | ryanpcmcquen@member.fsf.org
+# Ryan P. C. McQuen | Everett, WA
 
 wget mednafen.sourceforge.net/releases/ -O ~/mednafen-release-page.html
 cat ~/mednafen-release-page.html | grep mednafen | grep .tar.bz2 | cut -d'"' -f2 | sed 's/\?download//' | \
